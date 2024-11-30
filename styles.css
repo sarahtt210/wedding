@@ -1,0 +1,16 @@
+/* Set overall page font */
+body {
+    font-family: Arial;
+  }
+  
+  /* Style header */
+  header {
+    background: #3b5998;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Section tag styles */
+  section {
+    margin: 16px 0;
+  }
