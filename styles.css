@@ -17,7 +17,7 @@ header {
 
 #image {
     height: 75%;
-    background-image: url("_MG_57991.jpg");
+    background: url("_MG_57991.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
