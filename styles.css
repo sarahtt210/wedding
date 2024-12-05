@@ -2,7 +2,7 @@
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
-    height: 1495px;
+    height: 1200px;
     background-color: #ffeaab;
 }
 
@@ -18,7 +18,7 @@ header {
 #image {
     height: 75%;
     background: url("us.png");
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
