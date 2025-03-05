@@ -1,0 +1,53 @@
+<!-- HTML Page -->
+<!DOCTYPE html> 
+<html>
+
+<head>
+  <title>Details</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+      
+  </header>
+  <section id="navigation">
+    <a href="index.html" class="button-class">Home</a>
+    <a href="Soon.html" class="button-class">Our Story</a>
+    <a href="RSVP.html" class="button-class">RSVP</a>
+    <a href="Soon.html" class="button-class">Travel</a>
+    <a href="Soon.html" class="button-class">Things to Do</a>
+    <a href="Soon.html" class="button-class">Q & A</a>
+  </section>
+  <section id="form">
+    <div>
+      <!--Add few elements to the form-->
+      <h1>Save HTML Form data as text File using Javascript / Jquery</h1>
+      <div>
+        <input type="text" id="txtName" placeholder="Enter your name" />
+      </div>
+      <div>
+        <input type="text" id="txtAge" placeholder="Enter your age" />
+      </div>
+      <div>
+        <input type="text" id="txtEmail" placeholder="Enter your email address" />
+      </div>
+      <div>
+        <select id="selCountry">
+          <option selected value="">-- Choose the country --</option>
+          <option value="India">India</option>
+          <option value="Japan">Japan</option>
+          <option value="USA">USA</option>
+        </select>
+      </div>
+      <div>
+        <textarea id="msg" name="msg" placeholder="Write some message ..." style="height: 100px;"></textarea>
+      </div>
+      <div>
+        <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
