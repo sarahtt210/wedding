@@ -47,6 +47,7 @@ header {
     position: sticky;
     top: 0px;
     text-align: center;
+    z-index: 500;
 }
 
 a {
@@ -63,29 +64,21 @@ a:visited {
     color: white;
 }
 
-* {
-    box-sizing: border-box;
+#form {
+    margin-left: 50%;
 }
 
-div {
-    padding: 10px;
-    background-color: none;
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 150%;  /* Adjust based on your form's height */
+    height: 0;
     overflow: hidden;
 }
 
-input[type="text"], textarea, select {
-    font: 17px Calibri;
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    height: 100%;
 }
-
-input[type="button"] {
-    font: 17px Calibri;
-    width: auto;
-    float: right;
-    cursor: pointer;
-    padding: 7px;
-}
-  
