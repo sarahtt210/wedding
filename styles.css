@@ -94,9 +94,10 @@ header {
 #hotelBlock {
     color: #a94a2d;
     position: relative;
-    left: 15%;
+    left: 25%;
     word-wrap: break-word;
-    padding-right: 25%;
+    padding-right: 50%;
+    padding-bottom: 5%;
 }
 
 #hotelBlock a {
@@ -118,7 +119,7 @@ iframe {
 #registry a {
     padding-right: 20px;
     left: 100px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #registry a:link {
@@ -127,4 +128,53 @@ iframe {
 
 #registry a:visited {
     color: #a94a2d;
+}
+
+#registry {
+    color: #a94a2d;
+    position: relative;
+    left: 25%;
+    word-wrap: break-word;
+    padding-right: 50%;
+}
+
+#moreInfo {
+    color: #a94a2d;
+    position: relative;
+    left: 25%;
+    word-wrap: break-word;
+    padding-right: 50%;
+    padding-bottom: 5%;
+}
+
+#padres {
+    background-image: url("padres.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 60%;
+}
+
+#niagra {
+    background-image: url("niagra.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 60%;
+}
+
+#engaged {
+    background-image: url("engaged.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 60%;
+}
+
+#house {
+    background-image: url("hosue.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 60%;
 }
