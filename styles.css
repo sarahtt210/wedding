@@ -165,6 +165,13 @@ iframe {
     padding-right: 50%;
 }
 
+.responsive-video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 #Photos {
     color: #a94a2d;
     position: relative;
