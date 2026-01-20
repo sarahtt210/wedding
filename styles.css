@@ -158,15 +158,18 @@ iframe {
 }
 
 #Video {
-    
+    color: #a94a2d;
+    position: relative;
+    left: 15%;
+    word-wrap: break-word;
+    padding-right: 35%;
 }
 
 .responsive-video {
-  color: #a94a2d;
-    position: relative;
-    left: 25%;
-    word-wrap: break-word;
-    padding-right: 50%;
+  max-width: 120%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #Photos {
